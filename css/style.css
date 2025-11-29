@@ -51,7 +51,7 @@ body {
 
 .nav-link,
 .btn-contact {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif ;
   letter-spacing: 0.5px;
   font-weight: 500;
 }
@@ -61,16 +61,16 @@ body {
 }
 
 .nav-link {
-  color: #fff !important;
+  color: #fff ;
 }
 
 .nav-link:hover {
-  color: #F80182 !important;
+  color: #F80182 ;
 }
 
 .btn-contact {
   background-color: #F80182;
-  color: #fff !important;
+  color: #fff ;
   border-radius: 5px;
   padding: 0.4rem 1.2rem;
   text-align: center;
@@ -79,7 +79,7 @@ body {
 
 .btn-contact:hover {
   background: #fff;
-  color: #000 !important;
+  color: #000 ;
 }
 
 
@@ -170,7 +170,6 @@ body {
   transition: transform 0.25s ease-in-out;
   border-radius: 20px;
 }
-/* SOFTWARE ICON WRAPPER */
 .software-box {
   width: 120px;
   height: 120px;
@@ -184,17 +183,15 @@ body {
   transition: transform 0.25s ease;
 }
 
-/* ICON IMAGE INSIDE */
 .software-box img {
   width: 95%;
   height: 95%;
   object-fit: cover;
-  border-radius: 15px;   /* FIXES FIGMA & CANVA SHARP CORNERS */
+  border-radius: 15px;   
 }
 
-/* HOVER EFFECT */
 .software-box:hover {
-  transform: scale(1.15); /* smooth increase in size */
+  transform: scale(1.15); 
 }
 
 .software-item:hover {
@@ -253,7 +250,7 @@ body {
 }
 
 .about-text {
-  font-family: "Roboto Flex", sans-serif !important;
+  font-family: "Roboto Flex", sans-serif ;
   width: 750px;
   font-size: 36px;
   line-height: 1.2;
